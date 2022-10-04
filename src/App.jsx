@@ -24,10 +24,7 @@ export default function App() {
       <Section title={"Task-2 'Statistics section'"}>
         <Statistics title="Upload stats" stats={uploadStats} />
       </Section>
-      <Section>
-        <Statistics stats={uploadStats} />
-      </Section>
-
+      
       <Section title={"Task-3 'Friend list'"}>
         <FriendList friends={friends} />
       </Section>
